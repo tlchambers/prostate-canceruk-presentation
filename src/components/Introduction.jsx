@@ -43,7 +43,7 @@ function Introduction() {
 				</ul>
 			</div>
 			<button className="py-3 px-6 bg-yellow-500 rounded-full">
-				<a>About</a>
+				<a>More</a>
 			</button>
 		</div>
 	);
