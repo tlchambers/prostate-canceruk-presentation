@@ -1,5 +1,5 @@
 import './App.css';
-import About from './components/About';
+import Introduction from './components/Introduction';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
@@ -8,7 +8,7 @@ function App() {
 		<div>
 			<Navbar />
 			<Hero />
-			<About />
+			<Introduction />
 		</div>
 	);
 }
