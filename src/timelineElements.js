@@ -1,6 +1,7 @@
 let timelineElements = [
 	{
 		id: 1,
+		key: 1,
 		title: 'Senior Buyers Assistant',
 		description: 'bladhfdhf',
 		date: 'Sep 2015 - Jul 2019',
@@ -8,6 +9,7 @@ let timelineElements = [
 	},
 	{
 		id: 2,
+		key: 2,
 		title: 'fsjfsj',
 		description: 'bladhfdhf',
 		date: 'Sep 2015 - Jul 2019',
@@ -15,6 +17,7 @@ let timelineElements = [
 	},
 	{
 		id: 3,
+		key: 3,
 		title: 'fsjfsj',
 		description: 'bladhfdhf',
 		date: 'Sep 2015 - Jul 2019',
@@ -22,6 +25,7 @@ let timelineElements = [
 	},
 	{
 		id: 4,
+		key: 4,
 		title: 'fsjfsj',
 		description: 'bladhfdhf',
 		date: 'Sep 2015 - Jul 2019',
