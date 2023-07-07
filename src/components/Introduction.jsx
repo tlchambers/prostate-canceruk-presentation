@@ -7,7 +7,7 @@ function Introduction() {
 			<div className="text-center">
 				<div className="flex justify-center">
 					<img
-						className="rounded-full w-[220px] h-[220px]"
+						className="rounded-full w-[240px] h-[230px]"
 						src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif"
 						alt="Tom Hanks saying Hello"
 					/>
