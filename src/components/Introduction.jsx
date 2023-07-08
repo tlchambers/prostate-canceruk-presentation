@@ -1,9 +1,13 @@
 import React from 'react';
 import { FaTiktok, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 function Introduction() {
 	return (
-		<div className="flex flex-col items-center justify-center h-screen">
+		<div
+			name="introduction"
+			className="flex flex-col items-center justify-center h-screen"
+		>
 			<div className="text-center">
 				<div className="flex justify-center">
 					<img
@@ -12,7 +16,7 @@ function Introduction() {
 						alt="Tom Hanks saying Hello"
 					/>
 				</div>
-				<h1 className="lg:text-6xl md:text-4xl sm:text-4xl text-1xl text-yellow-500">
+				<h1 className="pt-6 lg:text-6xl md:text-4xl sm:text-4xl text-1xl text-yellow-500">
 					Thuy Ly-Chambers
 				</h1>
 				<h6 className="lg:text-6lg md:text-4lg sm:text-4lg text-lg p-3 text-gray-800">
@@ -43,7 +47,9 @@ function Introduction() {
 				</ul>
 			</div>
 			<button className="py-3 px-6 bg-yellow-500 rounded-full">
-				<a>More</a>
+				<Link to="about" smooth={true} duration={500}>
+					About
+				</Link>
 			</button>
 		</div>
 	);
