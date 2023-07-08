@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Hero() {
 	return (
@@ -8,7 +9,9 @@ function Hero() {
 			</h1>
 			<p className="pt-4 pb-8">Welcome to my short presentation.</p>
 			<button className="bg-yellow-500 py-3 px-6 rounded-full transition duration-300 ease-in-out flex items-center animate-bounce">
-				Let's Go
+				<Link to="introduction" smooth={true} duration={500}>
+					Get Started
+				</Link>
 			</button>
 		</div>
 	);
