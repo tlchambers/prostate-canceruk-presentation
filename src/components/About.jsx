@@ -7,11 +7,12 @@ import 'react-vertical-timeline-component/style.min.css';
 import { MdSchool } from 'react-icons/md';
 import { FcBriefcase } from 'react-icons/fc';
 import { FaCode } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
-function Timeline() {
+function About() {
 	return (
-		<div className="flex flex-col items-center">
-			<h1 className="text-4xl p-6">About</h1>
+		<div name="about" className="flex flex-col items-center">
+			<h1 className="text-4xl p-2">About</h1>
 			<VerticalTimeline lineColor="#3e497a">
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
@@ -63,7 +64,7 @@ function Timeline() {
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
-					date="2021 - 2022"
+					date="2022 - current"
 					iconStyle={{ background: '#FFBF00', color: '#fff' }}
 					icon={<FaCode />}
 				>
@@ -96,4 +97,4 @@ function Timeline() {
 	);
 }
 
-export default Timeline;
+export default About;
