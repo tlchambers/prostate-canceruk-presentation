@@ -9,8 +9,10 @@ function Navbar() {
 	};
 
 	return (
-		<header className="fixed flex justify-between items-center w-full h-24 mx-auto px-8 shadow-sm bg-white z-10">
-			<h1 className="w-full text-3xl font-bold">TLC</h1>
+		<header className="fixed flex justify-between items-center w-full h-24 mx-auto px-12 shadow-sm bg-white z-10">
+			<Link to="introduction" smooth={true} duration={500}>
+				<h1 className="w-full text-3xl font-bold cursor-pointer">TLC</h1>
+			</Link>
 			<ul className="hidden md:flex uppercase text-sm cursor-pointer">
 				<li className="p-4">
 					<Link to="introduction" smooth={true} duration={500}>
@@ -22,14 +24,9 @@ function Navbar() {
 						About
 					</Link>
 				</li>
-				<li className="p-4 w-[145px]">
-					<Link to="current-swot" smooth={true} duration={500}>
-						Current SWOT
-					</Link>
-				</li>
-				<li className="p-4 w-[150px]">
-					<Link to="future-swot" smooth={true} duration={500}>
-						Future SWOT
+				<li className="p-4">
+					<Link to="swot" smooth={true} duration={500}>
+						SWOT
 					</Link>
 				</li>
 			</ul>
@@ -56,13 +53,8 @@ function Navbar() {
 						</Link>
 					</li>
 					<li className="p-4 border-b border-gray-300">
-						<Link to="current-swot" smooth={true} duration={500}>
-							Current SWOT
-						</Link>
-					</li>
-					<li className="p-4">
-						<Link to="future-swot" smooth={true} duration={500}>
-							Future SWOT
+						<Link to="swot" smooth={true} duration={500}>
+							SWOT
 						</Link>
 					</li>
 				</ul>
