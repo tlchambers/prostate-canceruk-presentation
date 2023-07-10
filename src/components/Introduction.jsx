@@ -50,7 +50,7 @@ function Introduction() {
 				{/* <Link to="about" smooth={true} duration={500}>
 					About
 				</Link> */}
-				<Link to="introduction" smooth={true} duration={500}>
+				<Link to="hero" smooth={true} duration={500}>
 					Get Started
 				</Link>
 			</button>
