@@ -7,8 +7,8 @@ function Hero() {
 			<h1 className="lg:text-7xl md:text-5xl sm:text-5xl text-3xl">
 				Hello There!
 			</h1>
-			<p className="pt-4 pb-8">Welcome to my short presentation.</p>
-			<button className="bg-yellow-500 py-3 px-6 rounded-full transition duration-300 ease-in-out flex items-center animate-bounce">
+			<p className="pt-4 pb-8">Welcome to my presentation.</p>
+			<button className="bg-yellow-500 py-3 px-6 rounded-full transition duration-300 ease-in-out flex items-center animate-bounce hover:cursor-pointer">
 				<Link to="introduction" smooth={true} duration={500}>
 					Get Started
 				</Link>
