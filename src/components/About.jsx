@@ -67,10 +67,7 @@ function About() {
 					<p>
 						- Started learning coding using freeCodeCamp, Codecademy, CodeWars
 					</p>
-					<p>
-						-Applied for Makers Academy Coding Bootcamp 3 times before securing
-						a place on the course
-					</p>
+					<p>-Applied for Makers Academy Coding Bootcamp</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
