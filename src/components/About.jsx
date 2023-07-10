@@ -7,7 +7,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import { MdSchool } from 'react-icons/md';
 import { FcBriefcase } from 'react-icons/fc';
 import { FaCode } from 'react-icons/fa';
-import { Link } from 'react-scroll';
 
 function About() {
 	return (
@@ -21,14 +20,10 @@ function About() {
 					icon={<MdSchool />}
 				>
 					<h3 className="font-bold">
-						Fashion Buying Management, University of Westminster
+						Fashion Business Management, University of Westminster
 					</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vel
-						aperiam commodi officia minima error unde, itaque exercitationem in
-						assumenda, corrupti nobis, sunt sequi suscipit delectus? Molestias
-						vitae aliquam incidunt.
-					</p>
+					<p>Duration: 4 years incl. full year industry placement</p>
+					<p>Aim: To become a Fashion Buyer</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
@@ -39,12 +34,10 @@ function About() {
 					<h3 className="font-bold">
 						Senior Buyers Assistant, Long Tall Sally
 					</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vel
-						aperiam commodi officia minima error unde, itaque exercitationem in
-						assumenda, corrupti nobis, sunt sequi suscipit delectus? Molestias
-						vitae aliquam incidunt.
-					</p>
+					<p>Duration: 2 years 10 months</p>
+					<p>- Started as an intern</p>
+					<p>- Year placement</p>
+					<p>- Promoted to Senior Buyers Assistant shortly after graduation</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
@@ -55,25 +48,28 @@ function About() {
 					<h3 className="font-bold">
 						Policy Support Officer, Ministry of Justice
 					</h3>
+					<p>Duration: 1 years 1 month</p>
+					<p>- Private Family Law Team</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vel
-						aperiam commodi officia minima error unde, itaque exercitationem in
-						assumenda, corrupti nobis, sunt sequi suscipit delectus? Molestias
-						vitae aliquam incidunt.
+						- Provided general admin support, draft briefings and
+						correspondence, support with managing a grant for a charity that
+						operates child contact centres nationwide.
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
-					date="2022 - current"
-					iconStyle={{ background: '#FFBF00', color: '#fff' }}
+					date="2022 - Current"
+					iconStyle={{ background: '#FFAA1D', color: '#fff' }}
 					icon={<FaCode />}
 				>
 					<h3 className="font-bold">Started learning to code</h3>
+					<p>Duration: 1 year and Ongoing</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vel
-						aperiam commodi officia minima error unde, itaque exercitationem in
-						assumenda, corrupti nobis, sunt sequi suscipit delectus? Molestias
-						vitae aliquam incidunt.
+						- Started learning coding using freeCodeCamp, Codecademy, CodeWars
+					</p>
+					<p>
+						-Applied for Makers Academy Coding Bootcamp 3 times before securing
+						a place on the course
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
@@ -85,11 +81,11 @@ function About() {
 					<h3 className="font-bold">
 						Full Stack Software Developer Trainee, Makers Academy
 					</h3>
+					<p>Duration: 12 weeks</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vel
-						aperiam commodi officia minima error unde, itaque exercitationem in
-						assumenda, corrupti nobis, sunt sequi suscipit delectus? Molestias
-						vitae aliquam incidunt.
+						- Fundamental of programming, test-drive development, intro into web
+						development, databases, pair programming, group work, working with
+						git.
 					</p>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
