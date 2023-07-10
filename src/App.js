@@ -3,6 +3,7 @@ import Introduction from './components/Introduction';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Swot from './components/Swot';
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<Hero />
 			<Introduction />
 			<About />
+			<Swot />
 		</div>
 	);
 }
