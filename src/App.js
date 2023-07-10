@@ -9,8 +9,8 @@ function App() {
 	return (
 		<div>
 			<Navbar />
-			<Hero />
 			<Introduction />
+			<Hero />
 			<About />
 			<Swot />
 		</div>
