@@ -1,17 +1,44 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
+import SWOT1 from '../Images/pcSwot1.png';
+import SWOT2 from '../Images/pcSwot2.png';
+import SWOT3 from '../Images/pcSwot3.png';
+import SWOT4 from '../Images/pcSwot4.png';
+import SWOT5 from '../Images/pcSwot5.png';
+import SWOT6 from '../Images/pcSwot6.png';
+import SWOT7 from '../Images/pcSwot7.png';
+import SWOT8 from '../Images/pcSwot8.png';
+import SWOT9 from '../Images/pcSwot9.png';
 
 function Swot() {
 	const slides = [
 		{
-			url: 'https://images.pexels.com/photos/1120464/pexels-photo-1120464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+			url: SWOT1,
 		},
 		{
-			url: 'https://images.pexels.com/photos/4459664/pexels-photo-4459664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+			url: SWOT2,
 		},
 		{
-			url: 'https://images.pexels.com/photos/8732732/pexels-photo-8732732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+			url: SWOT3,
+		},
+		{
+			url: SWOT4,
+		},
+		{
+			url: SWOT5,
+		},
+		{
+			url: SWOT6,
+		},
+		{
+			url: SWOT7,
+		},
+		{
+			url: SWOT8,
+		},
+		{
+			url: SWOT9,
 		},
 	];
 
@@ -40,8 +67,9 @@ function Swot() {
 		>
 			<div
 				style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-				className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+				className="w-full h-full rounded-2xl bg-center bg-cover duration-200"
 			></div>
+
 			{/* Left arrow  */}
 			<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
 				<BsChevronCompactLeft onClick={prevSlide} size={30} />
