@@ -16,7 +16,7 @@ function Navbar() {
 			<ul className="hidden md:flex uppercase text-sm cursor-pointer">
 				<li className="p-4">
 					<Link to="introduction" smooth={true} duration={500}>
-						Introdution
+						Introduction
 					</Link>
 				</li>
 				<li className="p-4">
