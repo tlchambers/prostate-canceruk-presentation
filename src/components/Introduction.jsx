@@ -47,8 +47,11 @@ function Introduction() {
 				</ul>
 			</div>
 			<button className="py-3 px-6 bg-yellow-500 rounded-full">
-				<Link to="about" smooth={true} duration={500}>
+				{/* <Link to="about" smooth={true} duration={500}>
 					About
+				</Link> */}
+				<Link to="introduction" smooth={true} duration={500}>
+					Get Started
 				</Link>
 			</button>
 		</div>
