@@ -80,9 +80,9 @@ function About() {
 					</h3>
 					<p>Duration: 12 weeks</p>
 					<p>
-						- Fundamental of programming, test-drive development, intro into web
-						development, databases, pair programming, group work, working with
-						git.
+						- Fundamental of programming, test-driven development, intro into
+						web development, databases, pair programming, group work, working
+						with git.
 					</p>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
