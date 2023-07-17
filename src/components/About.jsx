@@ -10,8 +10,8 @@ import { FaCode } from 'react-icons/fa';
 
 function About() {
 	return (
-		<div name="about" className="flex flex-col items-center">
-			<h1 className="text-4xl p-2">About</h1>
+		<div name="about" className="w-full h-full flex flex-col items-center">
+			<h1 className="text-4xl pt-[120px]">About</h1>
 			<VerticalTimeline lineColor="#3e497a">
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
