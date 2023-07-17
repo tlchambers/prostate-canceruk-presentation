@@ -37,11 +37,11 @@ function Navbar() {
 
 			<div
 				className={
-					!nav ? 'hidden' : 'fixed left-0 top-0 w-[60%] h-full bg-yellow-400'
+					!nav ? 'hidden' : 'fixed left-0 top-0 w-[80%] h-full bg-yellow-400'
 				}
 			>
 				<h1 className="p-6 w-full text-3xl font-bold text-center">TLC</h1>
-				<ul className="pt-4 uppercase ">
+				<ul className="pt-6 uppercase ">
 					<li className="p-4 border-b border-gray-300">
 						<Link to="introduction" smooth={true} duration={500}>
 							Introdution
