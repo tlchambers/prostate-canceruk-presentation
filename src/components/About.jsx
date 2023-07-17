@@ -23,7 +23,9 @@ function About() {
 						Fashion Business Management, University of Westminster
 					</h3>
 					<p>Duration: 4 years incl. full year industry placement</p>
-					<p>Aim: To become a Fashion Buyer</p>
+					<ul className="list-disc pl-4">
+						<li>Aim: To become a Fashion Buyer</li>
+					</ul>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
@@ -35,9 +37,13 @@ function About() {
 						Senior Buyers Assistant, Long Tall Sally
 					</h3>
 					<p>Duration: 2 years 10 months</p>
-					<p>- Started as an intern</p>
-					<p>- Year placement</p>
-					<p>- Promoted to Senior Buyers Assistant shortly after graduation</p>
+					<ul className="list-disc pl-4">
+						<li>Started as an intern</li>
+						<li>Year placement</li>
+						<li>
+							Promoted to Senior Buyers Assistant shortly after graduation
+						</li>
+					</ul>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
@@ -49,12 +55,14 @@ function About() {
 						Policy Support Officer, Ministry of Justice
 					</h3>
 					<p>Duration: 1 years 1 month</p>
-					<p>- Private Family Law Team</p>
-					<p>
-						- Provided general admin support, draft briefings and
-						correspondence, support with managing a grant for a charity that
-						operates child contact centres nationwide.
-					</p>
+					<ul className="list-disc pl-4">
+						<li>Private Family Law Team</li>
+						<li>
+							Provided general admin support, draft briefings and
+							correspondence, support with managing a grant for a charity that
+							operates child contact centres nationwide.
+						</li>
+					</ul>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
@@ -64,10 +72,12 @@ function About() {
 				>
 					<h3 className="font-bold">Started learning to code</h3>
 					<p>Duration: 1 year and Ongoing</p>
-					<p>
-						- Started learning coding using freeCodeCamp, Codecademy, CodeWars
-					</p>
-					<p>-Applied for Makers Academy Coding Bootcamp</p>
+					<ul className="list-disc pl-4">
+						<li>
+							Started learning coding using freeCodeCamp, Codecademy, CodeWars
+						</li>
+						<li>Applied for Makers Academy Coding Bootcamp</li>
+					</ul>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
@@ -79,11 +89,13 @@ function About() {
 						Full Stack Software Developer Trainee, Makers Academy
 					</h3>
 					<p>Duration: 12 weeks</p>
-					<p>
-						- Fundamental of programming, test-driven development, intro into
-						web development, databases, pair programming, group work, working
-						with git.
-					</p>
+					<ul className="list-disc pl-4">
+						<li>Fundamental of programming, working with git</li>
+						<li>Test-driven development, debuggying</li>
+						<li>Agile practices </li>
+						<li>Intro into web development, databases</li>
+						<li>Pair programming and group work</li>
+					</ul>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
 		</div>
