@@ -17,10 +17,10 @@ function Introduction() {
 					/>
 				</div>
 				<h1 className="pt-6 lg:text-6xl md:text-4xl sm:text-4xl text-1xl text-yellow-500">
-					Thuy Ly-Chambers
+					T*** 
 				</h1>
 				<h6 className="lg:text-6lg md:text-4lg sm:text-4lg text-lg p-3 text-gray-800">
-					(It's pronounce as 'Twee')
+					(It's pronounce as 'T***')
 				</h6>
 				<p className="max-w-[500px]">
 					I'm an aspiring Software Developer who decided to make a bold career
